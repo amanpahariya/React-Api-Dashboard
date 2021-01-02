@@ -19,6 +19,7 @@ function TableView(props) {
                                 {scans.map(scan => (
                                     <li className={scan.status_detail === "DELIVERED" ? "scan-list delivered" : "scan-list"}>
                                         <div className='d-flex align-items-center'>
+                                            <i className="fas fa-circle dots"></i>
                                             <div className="line" />
                                             <ul className="my-1 w-100 scan-list-item d-flex">
                                                 <li>{scan.location}</li>

@@ -19,7 +19,7 @@ function Header() {
                     <a href="/" className="fw-bold">Transporters</a>
                 </li>
                 <li className="nav-link">
-                    <a href="/" className="fw-bold d-flex"><div><img src={profile} alt="profile"/></div> <i class="fas fa-angle-down"></i></a>
+                    <a href="/" className="fw-bold d-flex"><div><img src={profile} alt="profile"/></div> <i className="fas fa-angle-down"></i></a>
                 </li>
             </ul>
         </div>
