@@ -1,0 +1,28 @@
+.filter {
+    margin: 50px auto;
+    margin-bottom: 0;
+    width: fit-content;
+}
+
+.filter-item {
+    background: #557fdb; 
+    width: 120px;
+    margin: 0 10px;
+    border-radius: 6px;
+}
+.filter-item p{
+    padding:3px 5px;
+    color: #fff !important;
+
+}
+.filter-item p:first-child{
+    text-align: left;
+    font-size: 20px;
+}
+.filter-item p:nth-child(2){
+    text-align: center;
+    font-size: 30px;
+}
+.filter-item.active{
+    background: #2e54a7;
+}

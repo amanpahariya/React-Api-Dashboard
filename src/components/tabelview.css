@@ -1,0 +1,50 @@
+
+.table-left{
+    max-width: 600px;
+}
+.table-right{
+    max-height: 600px;
+    overflow-y: scroll;
+}.table-left-1{
+    border-left:3px dashed blue;
+}
+.line {
+    border: 1px solid #60b9d4;
+    width: 50px;
+    height: 0px;
+}
+.scan{
+    margin-bottom: 0;
+}
+
+.scan-list-item {
+    padding: 10px 20px;
+    border:1px solid #ebebeb;
+}
+.scan-list-item li, .table-right th{
+    font-size: 12px;
+    color: #706c6c !important;
+}
+.table-right th{
+    color: #bbbbbb !important;
+}
+.scan-list-item li:first-child {
+    width: 50%;
+}
+
+.scan-list-item li:nth-child(2) {
+    width: 30%;
+}
+.scan-list.delivered .scan-list-item{
+    background: #f3f0f0;
+}
+.delivered li, .status{
+    color: #5ab452 !important;
+}
+.table-right tbody tr{
+    border:1px solid #ebebeb;
+}
+.table-right tbody td{
+    border: none;
+    padding: 20px !important;
+}
