@@ -7,6 +7,7 @@
     overflow-y: scroll;
 }.table-left-1{
     border-left:3px dashed blue;
+    margin-left: 20px !important;
 }
 .line {
     border: 1px solid #60b9d4;
@@ -47,4 +48,11 @@
 .table-right tbody td{
     border: none;
     padding: 20px !important;
+}
+.destination, .house{
+    background: #b3d5e9;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
 }

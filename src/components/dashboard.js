@@ -104,23 +104,23 @@ function DashBoard() {
     return (
         <>
             <div className='d-flex filter'>
-                <div className={filter == 'DEL' ?"filter-item active":"filter-item"} onClick={DELFILTER}>
+                <div className={filter === 'DEL' ?"filter-item active":"filter-item"} onClick={DELFILTER}>
                     <p>DEL</p>
                     <p>{DEL.length}</p>
                 </div>
-                <div className={filter == 'INT' ?"filter-item active":"filter-item"} onClick={INTFILTER}>
+                <div className={filter === 'INT' ?"filter-item active":"filter-item"} onClick={INTFILTER}>
                     <p>INT</p>
                     <p>{INT.length}</p>
                 </div>
-                <div className={filter == 'OOD' ?"filter-item active":"filter-item"} onClick={OODFILTER}>
+                <div className={filter === 'OOD' ?"filter-item active":"filter-item"} onClick={OODFILTER}>
                     <p>OOD</p>
                     <p>{OOD.length}</p>
                 </div>
-                <div className={filter == 'DEX' ?"filter-item active":"filter-item"} onClick={DEXFILTER}>
+                <div className={filter === 'DEX' ?"filter-item active":"filter-item"} onClick={DEXFILTER}>
                     <p>DEX</p>
                     <p>{DEX.length}</p>
                 </div>
-                <div className={filter == 'NFI' ?"filter-item active":"filter-item"} onClick={NFIFILTER}>
+                <div className={filter === 'NFI' ?"filter-item active":"filter-item"} onClick={NFIFILTER}>
                     <p>NFI</p>
                     <p>{NFI.length}</p>
                 </div>

@@ -13,7 +13,7 @@ function TableView(props) {
             <div className="row">
                 <div className="col table-left">
                     <div className="border p-3 m-2">
-                        <img className='destination' src={destinationimage} />
+                        <img className='destination' src={destinationimage}  alt="destination"/>
                         <div className='table-left-1'>
                             <ul className='scan'>
                                 {scans.map(scan => (
@@ -30,7 +30,7 @@ function TableView(props) {
                                 ))}
                             </ul>
                         </div>
-                        <img className='house' src={house} />
+                        <img className='house' src={house} alt="house" />
                     </div>
                 </div>
                 <div className="col table-right border p-2">
