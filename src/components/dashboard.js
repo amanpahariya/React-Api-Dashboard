@@ -49,6 +49,7 @@ function DashBoard() {
                 }
                 setApiData(res.data);
             });
+        
     },[]);
     for (let count = 0; count < apiData.length; count++) {
         if (apiData[count]["current_status_code"] === 'DEL') {
