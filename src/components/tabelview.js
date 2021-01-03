@@ -8,6 +8,7 @@ import moment from 'moment';
 function TableView(props) {
     let shipments = props.data.shipments;
     let scans = props.data.scans;
+    console.log(scans)
     return <>
         <div className="container-fluid p-5">
             <div className="row">
